@@ -718,6 +718,84 @@ input:checked + label:before {
   flex-wrap: nowrap;
 }
 
+#testimonials {
+  padding-bottom: 120px;
+}
+
+#price {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: var(--section-bg);
+  background-size: 1920px 1146px;
+}
+
+.price-list {
+  display: flex;
+  margin-left: -20px;
+}
+.price-list__item {
+  margin-left: 20px;
+  flex-basis: calc((100% - 80px) / 4);
+}
+.price-list__title {
+  margin: 20px 0 20px 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.33;
+  color: var(--main-text);
+}
+
+.price-list--indent {
+  margin-bottom: 120px;
+}
+
+.service-price {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 1.7;
+  color: var(--main-text);
+}
+
+.price-per-min {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-content);
+}
+
+.price-per-dollar {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--additional-text-color);
+}
+
+.price-list__item .service-price:nth-child(1) {
+  margin-top: 0;
+}
+
+.price-list__item .service-price:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.price-list__item .service-price:nth-child(6) {
+  margin-bottom: 0;
+}
+
+.price-list__border {
+  position: relative;
+}
+
+.price-list__border::after {
+  content: "";
+  position: absolute;
+  height: 216px;
+  border: 1px solid var(--text-content);
+  left: 281px;
+  top: -3px;
+}
+
 .location {
   padding: 60px 0 60px 0;
   background: linear-gradient(0deg, rgba(59, 50, 45, 0.2), rgba(59, 50, 45, 0.2)), url(../img/map.jpg);
