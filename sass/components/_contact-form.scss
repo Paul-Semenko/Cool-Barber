@@ -93,7 +93,7 @@ label:before {
 
 input:checked+label:before {
     content: "";
-    background: url(../../img/icon.png) 2px no-repeat;
+    background: url(../img/icon.png) 2px no-repeat;
     background-size: 8px 6px;
     background-color: var(--secondary-button);
 
