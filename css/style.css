@@ -579,7 +579,7 @@ input:checked + label:before {
 .hero {
   padding-top: 40px;
   padding-bottom: 120px;
-  background-image: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url(../../img/hero-bg@1x.jpg);
+  background-image: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url(../img/hero-bg@1x.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 1180px 1000px;
@@ -655,15 +655,15 @@ input:checked + label:before {
 }
 
 .img-one:before {
-  background-image: url(../../img/benefits-one.png);
+  background-image: url(../img/benefits-one.png);
 }
 
 .img-two::before {
-  background-image: url(../../img/hair-gel.png);
+  background-image: url(../img/hair-gel.png);
 }
 
 .img-three::before {
-  background-image: url(../../img/beard.png);
+  background-image: url(../img/beard.png);
 }
 
 #about-us {
@@ -720,7 +720,7 @@ input:checked + label:before {
 
 .location {
   padding: 60px 0 60px 0;
-  background: linear-gradient(0deg, rgba(59, 50, 45, 0.2), rgba(59, 50, 45, 0.2)), url(../../img/map.jpg);
+  background: linear-gradient(0deg, rgba(59, 50, 45, 0.2), rgba(59, 50, 45, 0.2)), url(../img/map.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 1920px 650px;
@@ -766,7 +766,7 @@ input:checked + label:before {
 .location--disposition {
   padding-top: 135px;
   padding-bottom: 90px;
-  background-image: linear-gradient(0deg, rgba(59, 50, 45, 0.2), rgba(59, 50, 45, 0.2)), url(../../img/contacts-map.jpg);
+  background-image: linear-gradient(0deg, rgba(59, 50, 45, 0.2), rgba(59, 50, 45, 0.2)), url(../img/contacts-map.jpg);
   background-position: top center;
   background-size: 1920px 800px;
   height: 1235px;
@@ -798,7 +798,7 @@ input:checked + label:before {
 .masters-intro {
   padding-top: 40px;
   padding-bottom: 63px;
-  background: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url(../../img/our-masters/masters-intro.jpg);
+  background: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url(../img/our-masters/masters-intro.jpg);
   background-repeat: no-repeat;
   background-size: 1180px 420px;
   background-position: top center;
