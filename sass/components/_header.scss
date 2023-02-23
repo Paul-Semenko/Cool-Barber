@@ -1,0 +1,79 @@
+.header{
+   
+    &__logo{
+        padding: 35px 0 35px 0;
+        display: flex;
+        align-items: center;   
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;     
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--main-text);
+    }
+    &__icon{
+        margin-right: 17px;
+    }
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    
+    &__item:not(:last-child) {
+        margin-right: 25px;
+    }
+    &__item:first-child{
+        margin-left: 55px;
+        }
+    &__item:last-child{
+        margin-right: 42px;
+                }
+    &__link{
+        padding: 35px 0 35px 0;
+        font-size: 15px;
+        line-height: 1.33;       
+        color:var(--main-text);
+        text-decoration: none;
+    }
+}
+.contact-list{
+    display: flex;
+    align-items: center;
+    flex-basis: 38%;
+    flex-shrink: 0.1;
+    &__item{
+        flex-basis: 38%;
+        flex-shrink: 0.1;        
+    }
+    &__item:not(:last-child){
+        margin-right: 42px;
+    }
+    &__link{
+        display: flex;
+        align-items: center;        
+        padding: 35px 0 35px 0;
+        font-size: 14px;
+        line-height: 1.35;
+        text-align: right;
+        text-decoration: none;
+        color: var(--main-text);        
+    }
+    &__hours{
+        font-size: 14px;
+        line-height: 1.3;
+        text-align: right;        
+        color: var(--main-text);
+    }
+    &__icon{
+        margin-left: 15px;
+    }
+    &__text{
+        margin: 1px 0 0 0;
+    }
+}

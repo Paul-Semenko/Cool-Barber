@@ -1,0 +1,52 @@
+.masters{
+    margin-top: 90px;
+    &__wrap{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: var(--section-bg);       
+
+    }
+    &__name{
+        margin: 0 188px 0 50px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.25;
+        color:var(--main-text);
+    }
+    &__achivements{
+        margin: 0 20px 0 0;
+        font-size: 18px;
+        line-height: 1.5;
+        color:var(--text-content);
+    }
+        
+        &__description{
+            margin: 0 17px 0 0;
+        font-size: 18px;
+        line-height: 1.5;
+        color: var(--text-content);
+
+        }
+&__list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+&__item{
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-basis: calc((100% - 20px *4)/4);
+
+}
+}
+.header__icon--dispositioning{
+    margin-right: 12px;
+}
+
+.wrap{
+    margin-bottom: 90px;
+}

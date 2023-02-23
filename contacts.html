@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber</title>
+    <link rel="shortcut icon" href="./img/logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:regular,500,600,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:regular&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="./index.html" class="header__logo"
+            ><svg width="45" height="45" class="header__icon">
+              <use href="./img/icons/sprite.svg#icon-logo"></use></svg
+            >Cool Barber</a
+          >
+          <ul class="list nav__list">
+            <li class="nav__item">
+              <a href="./index.html#about-us" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="./our-masters.html" class="nav__link">Our masters</a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#price" class="nav__link">Price</a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#testimonials" class="nav__link"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="./contacts.html" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+          <ul class="list contact-list">
+            <li class="contact-list__item">
+              <a href="" class="contact-list__link"
+                >302 W 50th St, <br />
+                NY, NY 10019
+                <svg width="36" height="36" class="contact-list__icon">
+                  <use href="./img/icons/sprite.svg#icon-map"></use></svg
+              ></a>
+            </li>
+            <li class="contact-list__item">
+              <a href="tel:8 (800) 000-00-00" class="contact-list__link"
+                >8 (800) 000-00-00 <br />
+                Daily from 9 to 20
+                <svg width="36" height="36" class="contact-list__icon">
+                  <use href="./img/icons/sprite.svg#icon-phone"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="location location--disposition">
+      <div class="container">
+        <div class="location__wrap location__wrap--indent">
+          <h3 class="section-title">Contacts</h3>
+          <ul class="list location__list">
+            <li class="location__item">
+              <a href="tel: 8 (800) 000-00-00" class="location__link"
+                ><svg width="54" height="54" class="location__icon">
+                  <use href="./img/icons/sprite.svg#icon-phone"></use></svg
+                >8 (800) 000-00-00
+              </a>
+            </li>
+            <li class="location__item">
+              <a href="mailto:info@sitename.com" class="location__link"
+                ><svg width="54" height="54" class="location__icon">
+                  <use href="./img/icons/sprite.svg#icon-email"></use></svg
+                >info@sitename.com</a
+              >
+            </li>
+            <li class="location__item">
+              <a href="" class="location__link"
+                ><svg width="54" height="54" class="location__icon">
+                  <use href="./img/icons/sprite.svg#icon-map"></use></svg
+                >302 W 50th St, NY, NY 10019</a
+              >
+            </li>
+            <li class="location__item">
+              <a href="" class="location__link"
+                ><svg width="54" height="54" class="icon location__icon">
+                  <use href="./img/icons/sprite.svg#icon-time"></use></svg
+                >Daily from 9 to 20</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="inputs-wrap">
+          <h3 class="inputs-wrap__title">
+            Get in consultation with our expert barbers
+          </h3>
+          <p class="inputs-wrap__sub-title">Expand Call-to-Action Details</p>
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="+1 (___) ___-__-__"
+            class="input-tel"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            class="input-tel"
+          />
+          <button type="submit" class="form-btn">Book now</button>
+
+          <div class="policy-wrap">
+            <input type="checkbox" id="check" class="input-checkbox" />
+            <label for="check" class="privacy-policy">
+              By clicking on the button, you agree to the
+              <a href="#" class="privacy-policy__link"
+                >terms of processing personal data</a
+              >
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__text">© All rights reserved</p>
+    </footer>
+  </body>
+</html>

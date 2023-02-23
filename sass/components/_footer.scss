@@ -1,0 +1,13 @@
+.footer{
+    padding: 57px 0 56px 0;
+    background-color: var(--section-bg);
+    &__text{
+        margin: 0;
+        font-family:var(--additional-font);            
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;        
+        color:var(--additional-text-color);
+    }
+}

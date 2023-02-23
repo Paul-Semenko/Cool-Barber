@@ -1,0 +1,65 @@
+.location{
+    padding: 60px 0 60px 0;
+    background:linear-gradient(0deg, rgba(59, 50, 45, 0.2), rgba(59, 50, 45, 0.2)), url(../../img/map.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 1920px 650px;
+    height: 650px;
+    &__wrap{
+        padding: 65px 38px 80px 57px;
+        background: linear-gradient(0deg, #251D1A, #251D1A);        
+        border-radius: 5px;
+        width: 480px;
+    }
+    &__list{
+
+    }
+    &__item:not(:last-child){
+        margin-bottom: 25px;
+
+    }
+    &__link{        
+        display: flex;
+        align-items: center;        
+        text-decoration: none;
+        font-family: var(--additional-font);            
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 1.42;               
+        color: var(--additional-text-color);
+
+    }
+    &__icon{
+        margin-right: 31px;
+    }
+}
+.section-title{
+    margin-top: 0;
+    margin-bottom: 34px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    color:var(--additional-text-color);
+}
+.icon{
+    stroke:var(--additional-text-color);
+}
+
+.location--disposition{
+    padding-top: 135px;
+    padding-bottom: 90px;
+    background-image: linear-gradient(0deg, rgba(59, 50, 45, 0.2), rgba(59, 50, 45, 0.2)),
+        url(../../img/contacts-map.jpg);
+    background-position: top center;    
+    background-size: 1920px 800px;
+    height: 1235px;
+}
+.location__wrap--indent{
+    margin-bottom: 105px;
+}
+
+
+
+
+
