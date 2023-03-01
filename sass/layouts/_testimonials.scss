@@ -1,3 +1,66 @@
 #testimonials{
     padding-bottom: 120px;
 }
+
+.testimonials-title{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    color:var(--additional-text-color);
+}
+.testimonials-descr{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--additional-text-color);
+}
+.testimonials-full-descr{
+    font-size: 14px;
+    line-height: 1.35;
+    color:var(--accent-color);
+    text-decoration: none;
+}
+
+// ------------------ Owl Carousel -----------------------
+.owl-carousel .owl-item{
+    width: 280px;
+}
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.owl-carousel .owl-nav.disabled .owl-prev{
+    position: absolute;
+    left: -60px;
+    top: 151px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--text-content);
+}
+.owl-carousel .owl-nav.disabled .owl-next{
+    position: absolute;
+        width: 34px;
+        height: 34px;
+        left: 1177px;
+        top: 151px;
+        border-radius: 50%;
+        background: var(--text-content);
+}
+.owl-prev span{
+    width: 24px;
+    height: 24px;
+    color: var(--secondary-button) ;
+}
+.owl-next span {
+    width: 24px;
+    height: 24px;
+    color: var(--secondary-button);
+}
+
+.owl-dots{
+    display: none;
+}
