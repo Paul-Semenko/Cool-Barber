@@ -45,6 +45,8 @@
 }
 .header__icon--dispositioning{
     margin-right: 12px;
+    fill: var(--additional-text-color);
+    transition: fill, var(--animation);
 }
 
 .wrap{

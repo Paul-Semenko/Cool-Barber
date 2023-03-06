@@ -12,6 +12,14 @@
     height: 68px;
     background-color: var(--accent-color);
     border: none;
+    cursor: pointer;
+    transition: background-color, color, var(--animation);
+}
+.hero-btn:hover,
+.hero-btn:focus{
+color: var(--secondary-button);
+    background-color: var(--additional-text-color)
+    
 }
 .form-btn{
         padding: 18.5px 48px;
@@ -23,8 +31,15 @@
         line-height: 1.5;
         text-align: center;   
         color:var(--additional-text-color);
-        background: var(--secondary-button);
+        background-color: var(--secondary-button);
         border: none;
+        cursor: pointer;
+        transition: background-color, color, var(--animation);
+}
+.form-btn:hover,
+.form-btn:focus{
+    color: var(--secondary-button);
+    background-color: var(--additional-text-color);
 }
 
 .gallery-btn{
@@ -54,8 +69,15 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;       
         text-decoration: none;
-        color: var(--additional-text-color) ;
+        color: var(--additional-text-color);
+        transition: color, border, var(--animation);
 }
+.gallery-link:hover,
+.gallery-link:focus{
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
 .masters-btn{
     padding: 25px 49px;
     margin-right: auto;
@@ -73,4 +95,15 @@
         border: none;   
         color: var(--additional-text-color);    
     background-color: var(--accent-color);
+    transition: background-color, color, var(--animation);
+    &:hover,
+        &:focus {
+            color: var(--secondary-button);
+            background-color: var(--additional-text-color);
+        }
+                &:hover .header__icon--dispositioning,
+                &:focus .header__icon--dispositioning {
+                    fill: var(--secondary-button);
+                }
 }
+

@@ -26,13 +26,20 @@
         font-weight: 400;
         font-size: 21px;
         line-height: 1.42;               
-        color: var(--additional-text-color);
-
+        color: var(--additional-text-color);       
+        transition: color, transform var(--animation);        
     }
+    &__link:hover,
+    &__link:focus{
+        transform: scale(1.05);
+        color: var(--accent-color);
+    }
+        
     &__icon{
         margin-right: 31px;
     }
 }
+
 .section-title{
     margin-top: 0;
     margin-bottom: 34px;

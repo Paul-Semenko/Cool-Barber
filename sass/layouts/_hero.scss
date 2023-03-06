@@ -1,93 +1,105 @@
-.hero{
+.hero {
     padding-top: 40px;
     padding-bottom: 120px;
-    background-image: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url(../img/hero-bg@1x.jpg);
+    background: linear-gradient(90deg, rgba(33, 24, 20, 0.57) 0%, rgba(38, 28, 24, 0.42) 100%), url(../img/hero-bg@1x.jpg), url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 1180px 1000px;
-    
-    &__wrap{
+
+    &__wrap {
         display: flex;
         flex-direction: row;
         align-items: baseline;
         margin-bottom: 678px;
-
     }
-    &__title-wrap{
 
-    }
-    &__title{
-        margin: 0 0 0 46px;                       
+    &__title-wrap {}
+
+    &__title {
+        margin: 0 0 0 46px;
         font-family: var(--secondary-font);
         font-weight: 900;
         font-size: 70px;
         line-height: 1.1;
         color: var(--additional-text-color);
     }
-    &__text{
+
+    &__text {
         width: 221px;
         height: 40px;
         padding: 10px 25px;
         margin: 0 0 29px 0;
-        font-family: var(--secondary-font);            
+        font-family: var(--secondary-font);
         font-weight: 700;
         font-size: 13px;
         line-height: 1.5;
         letter-spacing: 0.1em;
         color: var(--additional-text-color);
-        border: 1px solid #EFE7E2 ;
+        border: 1px solid #EFE7E2;
     }
-    &__sub-text{
+
+    &__sub-text {
         margin: 0;
-        font-family: var(--main-font);            
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 1.5;
-            color: var(--main-text);
+        font-family: var(--main-font);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        color: var(--main-text);
     }
 }
 
-.hero-info{
+.hero-info {
     display: flex;
     justify-content: center;
     margin-right: -60px;
-    &__item{
+
+    &__item {
         margin-right: 60px;
         flex-basis: calc((100% - 60px *3)/3);
+        transition: background-color, var(--animation);
     }
-    &__title{
-        margin: 0 0 10px 0; 
+        &__item:hover,
+        &__item:focus{
+            background-color:var(--section-bg);
+        }
+
+    &__title {
+        margin: 0 0 10px 0;
         font-family: var(--main-font);
         font-weight: 600;
         font-size: 24px;
         line-height: 1.33;
-        text-align: center;        
-        color: var(--main-text); 
-        &::before{
+        text-align: center;
+        color: var(--main-text);
+
+        &::before {
             margin-bottom: 24px;
             display: block;
-            content:'';
+            content: '';
             height: 80px;
             background-repeat: no-repeat;
             background-position: center;
-        }       
+        }
     }
-    &__text{
+
+    &__text {
         margin: 0;
         font-size: 16px;
         line-height: 1.5;
         text-align: center;
-        color:var(--text-content);       
-        
-    }
+        color: var(--text-content);
 
+    }
 }
-.img-one:before{
+
+.img-one:before {
     background-image: url(../img/benefits-one.png);
 }
-.img-two::before{
+
+.img-two::before {
     background-image: url(../img/hair-gel.png);
 }
-.img-three::before{
+
+.img-three::before {
     background-image: url(../img/beard.png);
 }

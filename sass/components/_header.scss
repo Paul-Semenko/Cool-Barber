@@ -40,7 +40,12 @@
         line-height: 1.33;       
         color:var(--main-text);
         text-decoration: none;
+        transition: color var(--animation);
     }
+         &__link:hover,
+         &__link:focus{
+            color: var(--accent-color);
+         }
 }
 .contact-list{
     display: flex;
@@ -62,8 +67,13 @@
         line-height: 1.35;
         text-align: right;
         text-decoration: none;
-        color: var(--main-text);        
+        color: var(--main-text); 
+        transition: transform, var(--animation);       
     }
+        &__link:hover,
+        &__link:focus{
+            transform: scale(1.25);
+        }
     &__hours{
         font-size: 14px;
         line-height: 1.3;
