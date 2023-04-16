@@ -1075,4 +1075,8 @@ input:checked + label:before {
 
 .wrap {
   margin-bottom: 90px;
+}
+
+.hidden {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

@@ -97,7 +97,7 @@ color: var(--secondary-button);
     background-color: var(--accent-color);
     transition: background-color, color, var(--animation);
     &:hover,
-        &:focus {
+    &:focus {
             color: var(--secondary-button);
             background-color: var(--additional-text-color);
         }
