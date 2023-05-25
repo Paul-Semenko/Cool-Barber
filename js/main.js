@@ -19,7 +19,7 @@ buttonThree.addEventListener("click", galleryOpeningToggle);
 
 function galleryOpeningToggle() {
     if (this === buttonOne) {
-        galleryOne.classList.toggle('hidden')
+        galleryOne.classList.toggle('hidden')        
     } else if (this === buttonTwo) {
         galleryTwo.classList.toggle('hidden')
         
