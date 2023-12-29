@@ -572,31 +572,37 @@
               Get in consultation with our expert barbers
             </h3>
             <p class="inputs-wrap__sub-title">Expand Call-to-Action Details</p>
-            <input
-              type="tel"
-              name="tel"
-              id="tel"
-              placeholder="+1 (___) ___-__-__"
-              class="input-tel"
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              class="input-tel"
-            />
-            <button type="submit" class="form-btn">Book now</button>
+            <form action="">
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="+1 (___) ___-__-__"
+                class="input-tel"
+                pattern="^\+\d-\d{3}-\d{3}-\d{4}"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                class="input-tel"
+                pattern="/[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/igm"
+                required
+              />
+              <button type="submit" class="form-btn">Book now</button>
 
-            <div class="policy-wrap">
-              <input type="checkbox" id="check" class="input-checkbox" />
-              <label for="check" class="privacy-policy">
-                By clicking on the button, you agree to the
-                <a href="#" class="privacy-policy__link"
-                  >terms of processing personal data</a
-                >
-              </label>
-            </div>
+              <div class="policy-wrap">
+                <input type="checkbox" id="check" class="input-checkbox" />
+                <label for="check" class="privacy-policy">
+                  By clicking on the button, you agree to the
+                  <a href="#" class="privacy-policy__link"
+                    >terms of processing personal data</a
+                  >
+                </label>
+              </div>
+            </form>
           </div>
         </div>
       </section>

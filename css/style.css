@@ -274,6 +274,9 @@ summary {
   --additional-text-color:#FFFFFF;
   --accent-color:#FF6E40;
   --text-content: #B7AAA2;
+  --valid: #0ee80e;
+  --invalid:#fe0c0c;
+  --in-focus:#32ade2;
   --main-font: "Fira Sans", sans-serif;
   --secondary-font:"Playfair Display", sans-serif;
   --additional-font: "Montserrat", sans-serif;
@@ -613,6 +616,19 @@ input:checked + label:before {
   background: url(../img/icon.png) 2px no-repeat;
   background-size: 8px 6px;
   background-color: var(--secondary-button);
+}
+
+input:hover,
+input:focus {
+  outline: solid 2px var(--in-focus);
+}
+
+input:focus-within:invalid {
+  border: solid 2px var(--invalid);
+}
+
+input:valid {
+  border: solid 2px var(--valid);
 }
 
 .hero {

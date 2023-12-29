@@ -98,3 +98,18 @@ input:checked+label:before {
     background-color: var(--secondary-button);
 
 }
+
+input:hover,
+input:focus{
+    outline:solid 2px var(--in-focus);
+    
+}
+
+input:focus-within:invalid {
+    border: solid 2px var(--invalid);
+}
+
+input:valid {
+    border: solid 2px var(--valid);
+}
+
